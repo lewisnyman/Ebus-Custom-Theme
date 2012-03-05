@@ -1,0 +1,16 @@
+name = Ebusco
+description = Ebusco theme
+core = 7.x
+stylesheets[screen][] = styles/normalize.css
+stylesheets[screen][] = styles/helper.css
+stylesheets[screen][] = styles/type.css
+stylesheets[all][] = styles/print.css
+
+scripts[] = scripts/no-js.js
+
+regions[content] = Content
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[sidebar_first] = First sidebar
+regions_hidden[] = sidebar_first
