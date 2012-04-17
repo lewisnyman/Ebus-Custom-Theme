@@ -1,0 +1,12 @@
+.page-user .tabs,
+#navigation h2,
+#breadcrumb,
+.pane-user-profile .page-title,
+.filter-wrapper.form-wrapper,
+.pane-user-profile .pane-title,
+.comment .new,
+.submitted .permalink,
+#search-block-form .form-submit,
+#block-logintoboggan-logintoboggan-logged-in .username {
+  display: none;
+}
