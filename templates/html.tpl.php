@@ -5,14 +5,11 @@
 <head<?php print $rdf_profile?>>
   <title><?php print $head_title; ?></title>
   <?php print $head; ?>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
 <?php print $styles; ?>
 <?php print $scripts; ?>
 <!--[if lt IE 9]>
   <script src="<?php print drupal_get_path('theme', 'ebusco'); ?>/scripts/html5.js"></script>
 <![endif]-->
-<?php print $selectivizr; ?>
 </head>
 
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
