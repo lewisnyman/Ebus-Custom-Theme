@@ -1,0 +1,30 @@
+.view-filters {
+  margin-bottom: 1.4em;
+}
+
+.views-view-grid td {
+  vertical-align: top;
+  padding: 1.4em 3%;
+  position: relative;
+}
+/*
+.views-field-name {
+  bottom: 50px;
+  position: relative;
+}
+
+.views-field-name .field-content,
+.views-field-name a {
+  display: block;
+}
+
+.views-field-name a {
+  background-color: #FFF;
+  padding-left: 1em;
+  width: 60%;
+  word-wrap: break-word;
+}
+
+.views-exposed-widget {
+  display: inline-block;
+}*/
