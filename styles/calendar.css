@@ -1,0 +1,5 @@
+.calendar-calendar table td,
+.calendar-calendar table td.empty {
+  background-color: #F4F4F4;
+  text-align: center;
+}
