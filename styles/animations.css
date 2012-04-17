@@ -1,0 +1,137 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} 
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} 
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} 
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} 
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} 
+
+
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+} 
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+} 
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+} 
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+} 
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+} 
+
+
+@-webkit-keyframes yellowFade {
+  0% {
+    background-color: #FFFF9C;
+  }
+  100% {
+    background-color: #FFF;
+  }
+} 
+
+@-moz-keyframes yellowFade {
+  0% {
+    background-color: #FFFF9C;
+  }
+  100% {
+    background-color: #FFF;
+  }
+} 
+
+@-ms-keyframes yellowFade {
+  0% {
+    background-color: #FFFF9C;
+  }
+  100% {
+    background-color: #FFF;
+  }
+} 
+
+@-o-keyframes yellowFade {
+  0% {
+    background-color: #FFFF9C;
+  }
+  100% {
+    background-color: #FFF;
+  }
+} 
+
+@keyframes yellowFade {
+  0% {
+    background-color: #FFFF9C;
+  }
+  100% {
+    background-color: #FFF;
+  }
+} 
