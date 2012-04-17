@@ -242,7 +242,11 @@ q:after {
     content: none;
 }
 
-small {
+small,
+.hover-delete,
+.flag-like,
+.heartbeat-attachments,
+.heartbeat-attachment-button {
     font-size: 75%;
 }
 

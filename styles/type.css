@@ -1,26 +1,73 @@
 html, button, input, select, textarea { 
-  font-family: sans-serif; 
-  color: #222; 
+  font-family: helvetica, Arial, sans-serif; 
+  color: #666; 
 }
 
 body { 
+  background-color: #FFFFFE;
   font-size: 1em; 
   line-height: 1.4; 
 }
 
-a { 
-  color: #00e; 
+h1 {
+  color: #A9A8AC;
+  font-size: 4em;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
 }
 
-  a:visited {
-   color: #551a8b; 
-  }
-  
-  a:hover { 
-    color: #06e; 
+p {
+  margin: 1.4em 0;
+}
+
+a,
+a:visited { 
+  color: #E57C33; 
+  cusor:pointer;
+  text-decoration: none;
+  -webkit-transition: color 0.1s ease-out;
+  -moz-transition: color 0.1s ease-out;
+  -ms-transition: color 0.1s ease-out;  
+  -o-transition: color 0.1s ease-out;
+  transition: color 0.1s ease-out;
+}
+
+  a:hover,
+  a:focus { 
+    color: #BED743; 
   }
   
   a:focus { 
     outline: thin dotted; 
   }
   
+  small a {
+    color: #CCC;
+  }
+  
+article footer *,
+.submitted *,
+.submitted a {
+  color:  #A9A8AC;
+}
+
+a.user-link {
+  color: inherit;
+}
+
+blockquote {
+  color: #A9A8AC;
+  font-style: italic;
+}
+
+.heartbeat-activity blockquote {
+  margin: 0;
+}
+
+blockquote:before {
+  content: '“';
+  font-size: 2em;
+  font-style: normal;
+}
