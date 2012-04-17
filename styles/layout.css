@@ -1,0 +1,284 @@
+/* PAGE LAYOUT */
+body {
+  padding-top: 38px;
+}
+
+#page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.user-picture img {
+  -moz-box-shadow: 0 0 40px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0 0 40px rgba(0,0,0,0.25);
+  box-shadow: 0 0 60px rgba(0,0,0,0.25);
+}
+
+/* MAIN MENU */
+
+.admin-hw #main-menu {
+  top: 50px;
+}
+
+#toolbar {
+  background-color: #EDEDED;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 39px;
+  margin: 0;
+  width: 100%;
+  z-index: 99;
+  overflow: visible;
+}
+
+#toolbar > .block {
+  float: right;
+  padding: 0.5em;
+}
+
+#toolbar .block-menu {
+  float: left;
+  padding: 0;
+}
+
+#toolbar .menu {
+  margin: 0;
+  padding: 0;
+}
+
+#toolbar .menu li {
+  border-right: 1px solid #FFF;
+  float: left;
+  font-size: 1.2em;
+  list-style-image: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#toolbar a {
+  background-color: #EDEDED;
+  color: #666;
+}
+
+#toolbar .menu li a {
+  display: block;
+  padding: 5px 14px 6px 12px;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;  
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+#toolbar .menu li a:hover {
+  background-color: #BED743;  
+}
+
+#toolbar .menu li a.active {
+  background: #E57C33;
+  color: #FFF;
+}
+
+.js #toolbar .menu .expanded {
+  overflow: visible;
+}
+
+.js #toolbar .menu .expanded .menu li {
+  display: none;
+  font-size: 1rem;
+}
+
+#toolbar .menu .expanded.dropdown > a{
+  background-color: #BED743;
+}
+
+#toolbar .menu .expanded.dropdown .menu li {
+  display: block;
+  float: none;
+}
+
+/* TABLES */
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 0.7em 0 0.7em 0.1em;
+}
+
+td a {
+  display: block;
+}
+
+tr,
+tr.even,
+tr.odd {
+  border: 0;
+  background-color: 
+  #EEE;
+}
+
+th {
+  border: 0;
+  border-bottom: 1px solid #666;
+}
+
+td.active {
+  background-color: transparent;
+}
+
+tr.odd,
+tr:nth-of-type(odd){
+  background-color: #FFF;
+}
+
+/* GENERAL PANELS */
+
+.panel-pane {
+  padding: 10px 4% 40px;
+}
+
+.pane-title {
+  margin-top: 0;
+}
+
+.panel-panel:nth-of-type(odd) {
+  background-color: #efefef;
+}
+
+/* MODS */
+
+.view .date-nav-wrapper .date-prev {
+  right: 30px;
+}
+
+div.messages {
+  border: 0;
+  margin: 1.4em 0;
+}
+
+
+/* HEARTBEAT */
+.heartbeat-activity {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  overflow: hidden;
+}
+
+.heartbeat-activity .avatar {
+  float: left;
+  margin: 0 7px 7px 0;
+}
+
+.heartbeat-time-ago {
+  clear: both;
+  display: block;
+  text-align: right;
+}
+
+.heartbeat-stream span.flag-wrapper, .heartbeat-stream span.hover-delete, .heartbeat-attachment-button {
+  background:none;
+}
+
+.heartbeat-stream span.flag-wrapper:before, 
+.heartbeat-stream span.hover-delete:before, 
+.heartbeat-attachment-button:before {
+  content: " — ";
+}
+
+.heartbeat-activity {
+  margin-bottom: 2.8em;
+}
+
+/* ARTICLES */
+
+.node-type-article article footer,
+.node-type-article article .content {
+  float: left;
+}
+
+.node-type-article article footer {
+  width: 20%;
+  padding-right: 5%;
+}
+
+.node-type-article article .content {
+  width: 75%;
+  margin-bottom: 1.4em;
+}
+
+
+/* COMMENTS */
+
+article .comment {
+  margin-bottom: 2.8em;
+}
+
+.node-type-article article .comment .content {
+  width: auto;
+  margin-bottom: 0;
+}
+
+.comment h3 {
+  margin: 0;
+}
+.comment .user-picture {
+  float: left;
+  margin-right: 5%;
+  width: 15%;
+}
+
+.comment .links.inline {
+  clear: both;
+  float: right;
+}
+
+.comment-new {
+  -webkit-animation: yellowFade 2s ease-out;
+  -moz-animation: yellowFade 2s ease-out;
+  -ms-animation: yellowFade 2s ease-out;
+  -o-animation: yellowFade 2s ease-out;
+}
+
+/* PAGER */
+
+.item-list .pager {
+  margin: 2.8em 0 1.4em 0;
+}
+
+.item-list .pager li {
+  color: #FFF;
+  border: 0;
+  background-color: #F5C838;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #666;
+  display: inline-block;
+  padding: 0;
+}
+
+.item-list .pager li:hover {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.item-list .pager li a {
+  color: #FFF;
+  display: inline-block;
+  padding: 0.5em;
+}
+
+.item-list .pager .pager-current {
+    background: #EDEDED;
+    color: #666;
+    padding: 0.5em;
+}
