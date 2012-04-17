@@ -35,7 +35,7 @@ body {
 
 #toolbar > .block {
   float: right;
-  padding: 0.5em;
+  padding: 0.4em;
 }
 
 #toolbar .block-menu {
@@ -61,6 +61,10 @@ body {
 #toolbar a {
   background-color: #EDEDED;
   color: #666;
+}
+
+#toolbar .block-logintoboggan {
+  padding-top: 0.5em;
 }
 
 #toolbar .menu li a {
@@ -90,6 +94,12 @@ body {
 .js #toolbar .menu .expanded .menu li {
   display: none;
   font-size: 1rem;
+  -webkit-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  -o-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  
 }
 
 #toolbar .menu .expanded.dropdown > a{
@@ -99,7 +109,34 @@ body {
 #toolbar .menu .expanded.dropdown .menu li {
   display: block;
   float: none;
+  -webkit-animation: fanOut 0.3s ease-out;
+  -moz-animation: fanOut 0.3s ease-out;
+  -ms-animation: fanOut 0.3s ease-out;
+  -o-animation: fanOut 0.3s ease-out;
+  -webkit-animation-delay: 0;
 }
+
+#toolbar .menu .expanded.dropdown .menu li:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  -ms-animation-delay: 0.1s;
+  -o-animation-delay: 0.1s;
+}
+
+#toolbar .menu .expanded.dropdown .menu li:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -ms-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+}
+
+#toolbar .menu .expanded.dropdown .menu li:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -ms-animation-delay: 0.3s;
+  -o-animation-delay: 0.3s;
+}
+
 
 /* TABLES */
 

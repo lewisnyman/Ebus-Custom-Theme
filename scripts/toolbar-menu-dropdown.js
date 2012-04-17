@@ -11,9 +11,6 @@
       return false;
     });
     
-    dropdownLinks.blur( function(event) {
-      $(this).closest('.expanded').removeClass('dropdown');
-    });
   }
   
 })(jQuery);

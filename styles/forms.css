@@ -44,6 +44,10 @@ textarea {
   background-color: #EFEFEF;
   border: 2px solid #CCC;
   color: #A9A8AC;
+  padding: 0.2em;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -moz-transition: all 0.5s; 
   -webkit-transition: all 0.5s;  
   -ms-transition: all 0.5s;  
