@@ -11,6 +11,10 @@
       return false;
     });
     
+    $('#page-wrapper').click( function() {
+      $('#toolbar').find('.menu .expanded').removeClass('dropdown');
+    });
+    
   }
   
 })(jQuery);
